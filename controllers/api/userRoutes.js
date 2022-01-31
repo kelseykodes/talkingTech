@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User } = require('../../models');
+// const { User } = require('../../models');
 const session = require('express-session');
 
 
@@ -64,4 +64,4 @@ router.post('/', (req, res) => {
     });
   });
 
-module.exports = router;
+module.exports = router});
